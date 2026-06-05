@@ -1,0 +1,14 @@
+# Dependencias del proyecto NYC Taxi Analytics
+# Instalar con: pip install -r requirements.txt
+
+# ── Etapa 01: API REST ──────────────────────────────────────────
+pandas>=2.0       # Manejo de tablas de datos (como Excel en Python)
+pyarrow>=14.0     # Motor para leer/escribir archivos Parquet
+requests>=2.31    # Hacer llamadas HTTP (descargar archivos, APIs)
+tqdm>=4.66        # Barras de progreso en la terminal
+
+# ── Etapa 03: Python EDA (se usarán más adelante) ───────────────
+# scikit-learn>=1.4
+# matplotlib>=3.8
+# seaborn>=0.13
+# jupyter>=1.0

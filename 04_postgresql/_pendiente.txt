@@ -1,0 +1,4 @@
+ETAPA 04 — PostgreSQL
+======================
+Aquí irán los scripts SQL: modelo estrella, CTEs, window functions,
+y los scripts de carga desde Python hacia la base de datos.

@@ -1,0 +1,3 @@
+ETAPA 05 — Power BI + DAX
+==========================
+Aquí irá el archivo .pbix con dashboards ejecutivos, drill-through y KPIs.

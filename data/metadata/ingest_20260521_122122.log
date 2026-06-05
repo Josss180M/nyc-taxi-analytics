@@ -1,0 +1,184 @@
+2026-05-21 12:21:22 [INFO    ] Bitácora activa → C:\Users\Joshue Moreno\nyc_taxi_analytics\data\metadata\ingest_20260521_122122.log
+2026-05-21 12:21:22 [INFO    ] Carpetas listas → C:\Users\Joshue Moreno\nyc_taxi_analytics\data
+2026-05-21 12:21:22 [INFO    ] Consultando tipo de cambio USD → MXN en tiempo real ...
+2026-05-21 12:21:22 [INFO    ] Tipo de cambio obtenido: 1 USD = 17.3300 MXN  (fecha: 2026-05-21)
+2026-05-21 12:21:22 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-01.parquet
+2026-05-21 12:21:24 [INFO    ]   OK → 38.1 MB guardados en yellow_tripdata_2022-01.parquet
+2026-05-21 12:21:24 [INFO    ]   Validando calidad: yellow_tripdata_2022-01.parquet
+2026-05-21 12:21:26 [INFO    ]   → 2463931 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:21:26 [INFO    ]   Muestra CSV → sample_yellow_2022_01.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:21:26 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-02.parquet
+2026-05-21 12:21:28 [INFO    ]   OK → 45.6 MB guardados en yellow_tripdata_2022-02.parquet
+2026-05-21 12:21:28 [INFO    ]   Validando calidad: yellow_tripdata_2022-02.parquet
+2026-05-21 12:21:29 [INFO    ]   → 2979431 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:21:30 [INFO    ]   Muestra CSV → sample_yellow_2022_02.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:21:30 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-03.parquet
+2026-05-21 12:21:32 [INFO    ]   OK → 55.7 MB guardados en yellow_tripdata_2022-03.parquet
+2026-05-21 12:21:32 [INFO    ]   Validando calidad: yellow_tripdata_2022-03.parquet
+2026-05-21 12:21:34 [INFO    ]   → 3627882 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:21:34 [INFO    ]   Muestra CSV → sample_yellow_2022_03.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:21:34 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-04.parquet
+2026-05-21 12:21:37 [INFO    ]   OK → 55.2 MB guardados en yellow_tripdata_2022-04.parquet
+2026-05-21 12:21:37 [INFO    ]   Validando calidad: yellow_tripdata_2022-04.parquet
+2026-05-21 12:21:39 [INFO    ]   → 3599920 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:21:39 [INFO    ]   Muestra CSV → sample_yellow_2022_04.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:21:39 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-05.parquet
+2026-05-21 12:21:42 [INFO    ]   OK → 55.6 MB guardados en yellow_tripdata_2022-05.parquet
+2026-05-21 12:21:42 [INFO    ]   Validando calidad: yellow_tripdata_2022-05.parquet
+2026-05-21 12:21:43 [INFO    ]   → 3588295 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:21:44 [INFO    ]   Muestra CSV → sample_yellow_2022_05.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:21:44 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-06.parquet
+2026-05-21 12:21:47 [INFO    ]   OK → 55.4 MB guardados en yellow_tripdata_2022-06.parquet
+2026-05-21 12:21:47 [INFO    ]   Validando calidad: yellow_tripdata_2022-06.parquet
+2026-05-21 12:21:48 [INFO    ]   → 3558124 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:21:49 [INFO    ]   Muestra CSV → sample_yellow_2022_06.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:21:49 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-07.parquet
+2026-05-21 12:21:51 [INFO    ]   OK → 49.4 MB guardados en yellow_tripdata_2022-07.parquet
+2026-05-21 12:21:51 [INFO    ]   Validando calidad: yellow_tripdata_2022-07.parquet
+2026-05-21 12:21:53 [INFO    ]   → 3174394 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:21:53 [INFO    ]   Muestra CSV → sample_yellow_2022_07.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:21:53 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-08.parquet
+2026-05-21 12:21:55 [INFO    ]   OK → 49.7 MB guardados en yellow_tripdata_2022-08.parquet
+2026-05-21 12:21:55 [INFO    ]   Validando calidad: yellow_tripdata_2022-08.parquet
+2026-05-21 12:21:57 [INFO    ]   → 3152677 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:21:57 [INFO    ]   Muestra CSV → sample_yellow_2022_08.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:21:57 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-09.parquet
+2026-05-21 12:22:00 [INFO    ]   OK → 49.6 MB guardados en yellow_tripdata_2022-09.parquet
+2026-05-21 12:22:00 [INFO    ]   Validando calidad: yellow_tripdata_2022-09.parquet
+2026-05-21 12:22:01 [INFO    ]   → 3183767 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:22:02 [INFO    ]   Muestra CSV → sample_yellow_2022_09.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:22:02 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-10.parquet
+2026-05-21 12:22:04 [INFO    ]   OK → 57.1 MB guardados en yellow_tripdata_2022-10.parquet
+2026-05-21 12:22:04 [INFO    ]   Validando calidad: yellow_tripdata_2022-10.parquet
+2026-05-21 12:22:06 [INFO    ]   → 3675411 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:22:06 [INFO    ]   Muestra CSV → sample_yellow_2022_10.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:22:06 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-11.parquet
+2026-05-21 12:22:09 [INFO    ]   OK → 50.1 MB guardados en yellow_tripdata_2022-11.parquet
+2026-05-21 12:22:09 [INFO    ]   Validando calidad: yellow_tripdata_2022-11.parquet
+2026-05-21 12:22:10 [INFO    ]   → 3252717 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:22:10 [INFO    ]   Muestra CSV → sample_yellow_2022_11.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:22:10 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-12.parquet
+2026-05-21 12:22:13 [INFO    ]   OK → 53.6 MB guardados en yellow_tripdata_2022-12.parquet
+2026-05-21 12:22:13 [INFO    ]   Validando calidad: yellow_tripdata_2022-12.parquet
+2026-05-21 12:22:14 [INFO    ]   → 3399549 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:22:15 [INFO    ]   Muestra CSV → sample_yellow_2022_12.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:22:15 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet
+2026-05-21 12:22:17 [INFO    ]   OK → 47.7 MB guardados en yellow_tripdata_2023-01.parquet
+2026-05-21 12:22:17 [INFO    ]   Validando calidad: yellow_tripdata_2023-01.parquet
+2026-05-21 12:22:18 [INFO    ]   → 3066766 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:22:18 [INFO    ]   Muestra CSV → sample_yellow_2023_01.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:22:18 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-02.parquet
+2026-05-21 12:22:20 [INFO    ]   OK → 47.7 MB guardados en yellow_tripdata_2023-02.parquet
+2026-05-21 12:22:20 [INFO    ]   Validando calidad: yellow_tripdata_2023-02.parquet
+2026-05-21 12:22:21 [INFO    ]   → 2913955 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:22:22 [INFO    ]   Muestra CSV → sample_yellow_2023_02.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:22:22 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-03.parquet
+2026-05-21 12:22:24 [INFO    ]   OK → 56.1 MB guardados en yellow_tripdata_2023-03.parquet
+2026-05-21 12:22:24 [INFO    ]   Validando calidad: yellow_tripdata_2023-03.parquet
+2026-05-21 12:22:25 [INFO    ]   → 3403766 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:22:26 [INFO    ]   Muestra CSV → sample_yellow_2023_03.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:22:26 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-04.parquet
+2026-05-21 12:22:28 [INFO    ]   OK → 54.2 MB guardados en yellow_tripdata_2023-04.parquet
+2026-05-21 12:22:28 [INFO    ]   Validando calidad: yellow_tripdata_2023-04.parquet
+2026-05-21 12:22:30 [INFO    ]   → 3288250 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:22:30 [INFO    ]   Muestra CSV → sample_yellow_2023_04.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:22:30 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-05.parquet
+2026-05-21 12:22:33 [INFO    ]   OK → 58.7 MB guardados en yellow_tripdata_2023-05.parquet
+2026-05-21 12:22:33 [INFO    ]   Validando calidad: yellow_tripdata_2023-05.parquet
+2026-05-21 12:22:34 [INFO    ]   → 3513649 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:22:35 [INFO    ]   Muestra CSV → sample_yellow_2023_05.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:22:35 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-06.parquet
+2026-05-21 12:22:37 [INFO    ]   OK → 55.0 MB guardados en yellow_tripdata_2023-06.parquet
+2026-05-21 12:22:37 [INFO    ]   Validando calidad: yellow_tripdata_2023-06.parquet
+2026-05-21 12:22:38 [INFO    ]   → 3307234 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:22:39 [INFO    ]   Muestra CSV → sample_yellow_2023_06.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:22:39 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-07.parquet
+2026-05-21 12:22:40 [INFO    ]   OK → 48.4 MB guardados en yellow_tripdata_2023-07.parquet
+2026-05-21 12:22:40 [INFO    ]   Validando calidad: yellow_tripdata_2023-07.parquet
+2026-05-21 12:22:42 [INFO    ]   → 2907108 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:22:42 [INFO    ]   Muestra CSV → sample_yellow_2023_07.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:22:42 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-08.parquet
+2026-05-21 12:22:44 [INFO    ]   OK → 48.2 MB guardados en yellow_tripdata_2023-08.parquet
+2026-05-21 12:22:44 [INFO    ]   Validando calidad: yellow_tripdata_2023-08.parquet
+2026-05-21 12:22:45 [INFO    ]   → 2824209 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:22:45 [INFO    ]   Muestra CSV → sample_yellow_2023_08.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:22:45 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-09.parquet
+2026-05-21 12:22:48 [INFO    ]   OK → 47.9 MB guardados en yellow_tripdata_2023-09.parquet
+2026-05-21 12:22:48 [INFO    ]   Validando calidad: yellow_tripdata_2023-09.parquet
+2026-05-21 12:22:49 [INFO    ]   → 2846722 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:22:49 [INFO    ]   Muestra CSV → sample_yellow_2023_09.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:22:49 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-10.parquet
+2026-05-21 12:22:51 [INFO    ]   OK → 59.0 MB guardados en yellow_tripdata_2023-10.parquet
+2026-05-21 12:22:51 [INFO    ]   Validando calidad: yellow_tripdata_2023-10.parquet
+2026-05-21 12:22:53 [INFO    ]   → 3522285 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:22:53 [INFO    ]   Muestra CSV → sample_yellow_2023_10.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:22:53 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-11.parquet
+2026-05-21 12:22:56 [INFO    ]   OK → 56.1 MB guardados en yellow_tripdata_2023-11.parquet
+2026-05-21 12:22:56 [INFO    ]   Validando calidad: yellow_tripdata_2023-11.parquet
+2026-05-21 12:22:57 [INFO    ]   → 3339715 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:22:57 [INFO    ]   Muestra CSV → sample_yellow_2023_11.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:22:57 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-12.parquet
+2026-05-21 12:23:00 [INFO    ]   OK → 56.8 MB guardados en yellow_tripdata_2023-12.parquet
+2026-05-21 12:23:00 [INFO    ]   Validando calidad: yellow_tripdata_2023-12.parquet
+2026-05-21 12:23:01 [INFO    ]   → 3376567 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:23:02 [INFO    ]   Muestra CSV → sample_yellow_2023_12.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:23:02 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet
+2026-05-21 12:23:04 [INFO    ]   OK → 50.0 MB guardados en yellow_tripdata_2024-01.parquet
+2026-05-21 12:23:04 [INFO    ]   Validando calidad: yellow_tripdata_2024-01.parquet
+2026-05-21 12:23:05 [INFO    ]   → 2964624 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:23:05 [INFO    ]   Muestra CSV → sample_yellow_2024_01.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:23:05 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-02.parquet
+2026-05-21 12:23:07 [INFO    ]   OK → 50.3 MB guardados en yellow_tripdata_2024-02.parquet
+2026-05-21 12:23:07 [INFO    ]   Validando calidad: yellow_tripdata_2024-02.parquet
+2026-05-21 12:23:09 [INFO    ]   → 3007526 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:23:09 [INFO    ]   Muestra CSV → sample_yellow_2024_02.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:23:09 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-03.parquet
+2026-05-21 12:23:12 [INFO    ]   OK → 60.1 MB guardados en yellow_tripdata_2024-03.parquet
+2026-05-21 12:23:12 [INFO    ]   Validando calidad: yellow_tripdata_2024-03.parquet
+2026-05-21 12:23:13 [INFO    ]   → 3582628 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:23:14 [INFO    ]   Muestra CSV → sample_yellow_2024_03.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:23:14 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-04.parquet
+2026-05-21 12:23:16 [INFO    ]   OK → 59.1 MB guardados en yellow_tripdata_2024-04.parquet
+2026-05-21 12:23:16 [INFO    ]   Validando calidad: yellow_tripdata_2024-04.parquet
+2026-05-21 12:23:18 [INFO    ]   → 3514289 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:23:18 [INFO    ]   Muestra CSV → sample_yellow_2024_04.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:23:18 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-05.parquet
+2026-05-21 12:23:21 [INFO    ]   OK → 62.6 MB guardados en yellow_tripdata_2024-05.parquet
+2026-05-21 12:23:21 [INFO    ]   Validando calidad: yellow_tripdata_2024-05.parquet
+2026-05-21 12:23:22 [INFO    ]   → 3723833 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:23:23 [INFO    ]   Muestra CSV → sample_yellow_2024_05.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:23:23 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-06.parquet
+2026-05-21 12:23:25 [INFO    ]   OK → 59.9 MB guardados en yellow_tripdata_2024-06.parquet
+2026-05-21 12:23:25 [INFO    ]   Validando calidad: yellow_tripdata_2024-06.parquet
+2026-05-21 12:23:27 [INFO    ]   → 3539193 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:23:27 [INFO    ]   Muestra CSV → sample_yellow_2024_06.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:23:27 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-07.parquet
+2026-05-21 12:23:30 [INFO    ]   OK → 52.3 MB guardados en yellow_tripdata_2024-07.parquet
+2026-05-21 12:23:30 [INFO    ]   Validando calidad: yellow_tripdata_2024-07.parquet
+2026-05-21 12:23:31 [INFO    ]   → 3076903 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:23:31 [INFO    ]   Muestra CSV → sample_yellow_2024_07.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:23:31 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-08.parquet
+2026-05-21 12:23:34 [INFO    ]   OK → 51.1 MB guardados en yellow_tripdata_2024-08.parquet
+2026-05-21 12:23:34 [INFO    ]   Validando calidad: yellow_tripdata_2024-08.parquet
+2026-05-21 12:23:35 [INFO    ]   → 2979183 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:23:35 [INFO    ]   Muestra CSV → sample_yellow_2024_08.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:23:35 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-09.parquet
+2026-05-21 12:23:38 [INFO    ]   OK → 61.2 MB guardados en yellow_tripdata_2024-09.parquet
+2026-05-21 12:23:38 [INFO    ]   Validando calidad: yellow_tripdata_2024-09.parquet
+2026-05-21 12:23:40 [INFO    ]   → 3633030 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:23:40 [INFO    ]   Muestra CSV → sample_yellow_2024_09.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:23:40 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-10.parquet
+2026-05-21 12:23:43 [INFO    ]   OK → 64.3 MB guardados en yellow_tripdata_2024-10.parquet
+2026-05-21 12:23:43 [INFO    ]   Validando calidad: yellow_tripdata_2024-10.parquet
+2026-05-21 12:23:45 [INFO    ]   → 3833771 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:23:45 [INFO    ]   Muestra CSV → sample_yellow_2024_10.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:23:45 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-11.parquet
+2026-05-21 12:23:48 [INFO    ]   OK → 60.7 MB guardados en yellow_tripdata_2024-11.parquet
+2026-05-21 12:23:48 [INFO    ]   Validando calidad: yellow_tripdata_2024-11.parquet
+2026-05-21 12:23:49 [INFO    ]   → 3646369 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:23:50 [INFO    ]   Muestra CSV → sample_yellow_2024_11.csv  (10000 filas, tasa=17.3300)
+2026-05-21 12:23:50 [INFO    ] Descargando (intento 1 de 3): https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-12.parquet
+2026-05-21 12:23:53 [INFO    ]   OK → 61.5 MB guardados en yellow_tripdata_2024-12.parquet
+2026-05-21 12:23:53 [INFO    ]   Validando calidad: yellow_tripdata_2024-12.parquet
+2026-05-21 12:23:55 [INFO    ]   → 3668371 filas | 19 columnas | nulos en total_amount: 0.0%
+2026-05-21 12:23:55 [INFO    ]   Muestra CSV → sample_yellow_2024_12.csv  (10000 filas, tasa=17.3300)

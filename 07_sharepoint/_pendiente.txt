@@ -1,0 +1,4 @@
+ETAPA 07 — SharePoint
+======================
+Aquí irá la documentación de la integración con SharePoint y los
+reportes finales publicados.
