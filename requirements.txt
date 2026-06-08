@@ -7,8 +7,7 @@ pyarrow>=14.0     # Motor para leer/escribir archivos Parquet
 requests>=2.31    # Hacer llamadas HTTP (descargar archivos, APIs)
 tqdm>=4.66        # Barras de progreso en la terminal
 
-# ── Etapa 03: Python EDA (se usarán más adelante) ───────────────
-# scikit-learn>=1.4
-# matplotlib>=3.8
-# seaborn>=0.13
-# jupyter>=1.0
+# ── Etapa 03: Python EDA + ML ───────────────────────────────────
+scikit-learn>=1.4   # Modelo RandomForest para prediccion de propina
+matplotlib>=3.8     # Graficas y visualizaciones
+seaborn>=0.13       # Heatmaps y plots estadisticos

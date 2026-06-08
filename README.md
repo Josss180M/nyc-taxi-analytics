@@ -32,7 +32,7 @@ de datos, utilizando herramientas estándar de la industria.
 |------------------------|----------------------------------------|--------------|
 | 01_api_rest            | Ingesta desde API pública NYC TLC      | Completado   |
 | 02_excel_power_query   | Profiling, validación y análisis       | Completado   |
-| 03_python_eda          | EDA, limpieza y modelo ML              | En progreso  |
+| 03_python_eda          | EDA, limpieza y modelo ML              | Completado   |
 | 04_postgresql          | Modelado estrella y queries SQL        | Pendiente    |
 | 05_power_bi            | Dashboard ejecutivo                    | Pendiente    |
 | 06_power_automate      | Automatización mensual                 | Pendiente    |
@@ -53,6 +53,8 @@ de datos, utilizando herramientas estándar de la industria.
 - La hora mas rentable por viaje es las 5am con $35 promedio
 - El 80% de los pagos se realizan con tarjeta de credito
 - Manhattan concentra el 88% del volumen total de viajes
+- Modelo RandomForest predice propinas con R²=0.67 y RMSE=$2.12
+- `fare_amount` y `trip_distance` son los predictores mas importantes de propina
 
 ## Requisitos
 
