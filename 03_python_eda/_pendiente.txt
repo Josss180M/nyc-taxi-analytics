@@ -1,4 +1,0 @@
-ETAPA 03 — Python EDA + Limpieza + scikit-learn
-=================================================
-Aquí irán los notebooks .ipynb y scripts .py de análisis exploratorio,
-limpieza de datos y modelos de machine learning.

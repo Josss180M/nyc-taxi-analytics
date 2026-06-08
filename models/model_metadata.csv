@@ -1,0 +1,2 @@
+model,n_estimators,max_depth,train_size,test_size,rmse,r2,features
+RandomForestRegressor,150,15,1760169,440043,2.119623,0.665469,"['hour', 'dayofweek', 'PULocationID', 'DOLocationID', 'trip_distance', 'passenger_count', 'fare_amount', 'RatecodeID', 'duration_min']"

@@ -11,6 +11,12 @@ build/
 # Data - raw files (too large)
 data/raw/
 
+# Data - processed (large outputs, regenerables con el script)
+data/processed/
+
+# Models - binarios grandes
+models/*.pkl
+
 # Jupyter
 .ipynb_checkpoints/
 
