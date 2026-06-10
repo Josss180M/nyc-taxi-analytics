@@ -79,13 +79,13 @@ CREATE TABLE fact_trips (
     extra                 NUMERIC(8,2),
     mta_tax               NUMERIC(8,2),
     tip_amount            NUMERIC(10,2),
-    tip_pct               NUMERIC(8,2),
+    tip_pct               NUMERIC(10,2),
     tolls_amount          NUMERIC(10,2),
     improvement_surcharge NUMERIC(8,2),
     total_amount          NUMERIC(10,2),
     congestion_surcharge  NUMERIC(8,2),
     airport_fee           NUMERIC(8,2),
-    price_per_mile        NUMERIC(10,4),
+    price_per_mile        NUMERIC(12,4),
     hour                  SMALLINT,
     day_of_week           SMALLINT,
     month                 SMALLINT,
@@ -182,6 +182,19 @@ for chunk in pd.read_csv(fact_path, chunksize=CHUNKSIZE, low_memory=False):
     chunk = chunk[chunk["ratecode_id"].between(1, 6)]
     chunk = chunk[chunk["payment_type_id"].between(1, 6)]
     chunk = chunk[chunk["vendor_id"].isin([1, 2])]
+
+    int_cols = [
+        "vendor_id", "passenger_count", "pu_location_id", "do_location_id",
+        "ratecode_id", "payment_type_id", "hour", "day_of_week", "month", "year",
+    ]
+    for col in int_cols:
+        if col in chunk.columns:
+            chunk[col] = chunk[col].fillna(0).astype(int)
+
+    if "tip_pct" in chunk.columns:
+        chunk["tip_pct"] = chunk["tip_pct"].clip(0, 99999.99)
+    if "price_per_mile" in chunk.columns:
+        chunk["price_per_mile"] = chunk["price_per_mile"].clip(0, 99999999.9999)
 
     chunk[FACT_COLS].to_sql(
         "fact_trips", engine,
