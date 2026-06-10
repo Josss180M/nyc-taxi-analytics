@@ -1,3 +1,5 @@
+import csv
+import io
 import os
 import pandas as pd
 from sqlalchemy import create_engine, text
@@ -16,6 +18,17 @@ engine = create_engine(
 )
 
 PROCESSED_DIR = os.path.join("data", "processed")
+
+
+def psql_copy(table, conn, keys, data_iter):
+    buf = io.StringIO()
+    writer = csv.writer(buf)
+    writer.writerows(data_iter)
+    buf.seek(0)
+    cols = ", ".join(f'"{k}"' for k in keys)
+    conn.connection.cursor().copy_expert(
+        f'COPY "{table.name}" ({cols}) FROM STDIN WITH CSV', buf
+    )
 ZONE_LOOKUP    = os.path.join("data", "taxi_zone_lookup.csv")
 
 
@@ -173,7 +186,7 @@ for chunk in pd.read_csv(fact_path, chunksize=CHUNKSIZE, low_memory=False):
     chunk[FACT_COLS].to_sql(
         "fact_trips", engine,
         if_exists="append", index=False,
-        method="multi", chunksize=5_000,
+        method=psql_copy,
     )
     total += len(chunk)
     print(f"  {total:,} filas insertadas...")
